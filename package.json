@@ -1,0 +1,33 @@
+{
+  "name": "indy-sdk-unofficial",
+  "version": "0.0.0",
+  "description": "unofficial nodejs implementation of indy-sdk.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burdettadam/indy-sdk-unofficial.git"
+  },
+  "keywords": [
+    "indy-sdk"
+  ],
+  "author": "adam burdett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/burdettadam/indy-sdk-unofficial/issues"
+  },
+  "homepage": "https://github.com/burdettadam/indy-sdk-unofficial#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.1",
+    "pack-unpack": "dbluhm/indy-pack-unpack-js",
+    "sign-attr": "dbluhm/indy-sign-attr-js"
+  }
+}

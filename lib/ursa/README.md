@@ -1,0 +1,1 @@
+wasm-pack build --target nodejs -- --no-default-features --features=wasm 
